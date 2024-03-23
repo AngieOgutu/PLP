@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Links</title>
+    <title>Styling HTML Elements</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+            margin: 1.5;
             padding: 0;
+            background-color: azure;
+            color: #941e7a;
         }
         header, nav, main, footer {
             padding: 20px;
@@ -36,6 +38,9 @@
         .image-alignment {
             float: left;
             margin-inline: 10px;
+        }
+        .highlight  {
+            background-color: yellow;
         }
     </style>
 </head>
@@ -72,6 +77,31 @@
                 <li><a href="https://www.healthline.com/nutrition/50-super-healthy-foods" target="_blank"><img src="Images/food 3.jpeg" alt="Food 3" style="max-width: 100%;">Vegetables</a></li>
             </ul>
         </section>
+       <!--<section id="Information">
+            <h2>Fill in the Following Information</h2>
+            <form action="/submit" method="post">
+                <label for="username">Username:</label>
+                <input type="text" name="username" placeholder="Enter your Preferred Name">
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="other" id="other">
+                <label for="other">Other</label>
+                <label for="age">Age:</label>
+                <input type="number" name="age" placeholder="Enter your age">
+                <label for="allergies">Allergies:</label>
+                <input type="text" name="allergies" placeholder="Enter any allergies you have">
+                <label for="conditions">Medical Conditions:</label>
+                <input type="text" name="conditions" placeholder="Enter any medical conditions you have">
+                <label for="preferences">Dietary Preferences:</label>
+                <input type="text" name="preferences" placeholder="Enter any food preferences you have">
+                <label for="restrictions">Dietary Restrictions or Intolerances:</label>
+                <input type="text" name="restrictions" placeholder="Enter any food restrictions or Intolerances you have">
+                <input type="submit" value="Submit">
+            </form>
+        </section>--> 
     </main>
     <footer>
         <p>&copy; 2024 This Website</p>
