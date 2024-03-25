@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Student Registration</title>
+</head>
+<body>
+  <h1>New Student Registration</h1>
+  <form action="submit" method="post">  
+    <fieldset>
+      <legend>Student Information</legend>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob" required>
+      </div>
+      <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" rows="3" cols="30" required></textarea>
+      </div>
+      <div>
+        <label for="phone">Telephone:</label>
+        <input type="tel" name="phone" id="phone" required> </div>
+      <div>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div>
+        <label for="course">Course:</label>
+        <select name="course" id="course" required>
+          <option value="">Select Course</option>
+          <option value="math">Business Management</option>
+          <option value="science">Data Analytics</option>
+          <option value="history">Calculus</option>
+        </select>
+      </div>
+    </fieldset>
+    <button type="submit">Register</button>
+    <button type="reset">Cancel</button>
+  </form>
+</body>
+</html>
